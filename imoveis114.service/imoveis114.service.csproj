@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\imoveis114.entity\imoveis114.entity.csproj" />
+    <ProjectReference Include="..\imoveis114.infrastructure\imoveis114.infrastructure.csproj" />
+    <ProjectReference Include="..\imoveis114.repository\imoveis114.repository.csproj" />
+  </ItemGroup>
+
+</Project>

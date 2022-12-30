@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imoveis114.entity", "imoveis114.entity\imoveis114.entity.csproj", "{FB96D997-DB7D-4A0A-AA13-32CA206105CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imoveis114.infrastructure", "imoveis114.infrastructure\imoveis114.infrastructure.csproj", "{F8A099CE-9A71-4CC1-BEF5-ABAA6AC53FB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imoveis114.repository", "imoveis114.repository\imoveis114.repository.csproj", "{882E3DFE-19D6-457C-9885-DB60640671BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "imoveis114.service", "imoveis114.service\imoveis114.service.csproj", "{46E23509-3E33-45B6-B562-AE52D0C5AF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imoveis114.tests", "imoveis114.tests\imoveis114.tests.csproj", "{5A1C2B55-0B4C-4A19-9370-5FB2F4DB2CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imoveis114.api", "imoveis114.api\imoveis114.api.csproj", "{C8254B07-2EE0-47EB-A644-E413111A5BB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB96D997-DB7D-4A0A-AA13-32CA206105CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB96D997-DB7D-4A0A-AA13-32CA206105CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB96D997-DB7D-4A0A-AA13-32CA206105CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB96D997-DB7D-4A0A-AA13-32CA206105CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A099CE-9A71-4CC1-BEF5-ABAA6AC53FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A099CE-9A71-4CC1-BEF5-ABAA6AC53FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A099CE-9A71-4CC1-BEF5-ABAA6AC53FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A099CE-9A71-4CC1-BEF5-ABAA6AC53FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{882E3DFE-19D6-457C-9885-DB60640671BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882E3DFE-19D6-457C-9885-DB60640671BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882E3DFE-19D6-457C-9885-DB60640671BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882E3DFE-19D6-457C-9885-DB60640671BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E23509-3E33-45B6-B562-AE52D0C5AF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E23509-3E33-45B6-B562-AE52D0C5AF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E23509-3E33-45B6-B562-AE52D0C5AF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E23509-3E33-45B6-B562-AE52D0C5AF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1C2B55-0B4C-4A19-9370-5FB2F4DB2CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1C2B55-0B4C-4A19-9370-5FB2F4DB2CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1C2B55-0B4C-4A19-9370-5FB2F4DB2CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1C2B55-0B4C-4A19-9370-5FB2F4DB2CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8254B07-2EE0-47EB-A644-E413111A5BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8254B07-2EE0-47EB-A644-E413111A5BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8254B07-2EE0-47EB-A644-E413111A5BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8254B07-2EE0-47EB-A644-E413111A5BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59A81B2F-3128-4DE1-92E9-BE8F52E76FAD}
+	EndGlobalSection
+EndGlobal

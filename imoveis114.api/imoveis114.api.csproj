@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\imoveis114.entity\imoveis114.entity.csproj" />
+    <ProjectReference Include="..\imoveis114.infrastructure\imoveis114.infrastructure.csproj" />
+    <ProjectReference Include="..\imoveis114.repository\imoveis114.repository.csproj" />
+    <ProjectReference Include="..\imoveis114.service\imoveis114.service.csproj" />
+  </ItemGroup>
+
+</Project>
