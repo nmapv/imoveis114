@@ -17,15 +17,18 @@ namespace imoveis114.tests.Services
         public async Task InsertUserAsync()
         {
             var user = new User("test@test.com", "1234", "test", "test");
-            var returnedUser  = await userService.InsertAsync(user);
+            await userService.InsertAsync(user);
+        }
+
+        [Fact]
+        public async Task GetUserAsync()
+        {
+            var user = new User("test1@test.com", "1234", "test", "test");
+            await userService.InsertAsync(user);
+
+            var returnedUser = await userService.GetAsync(user.id);
 
             Assert.NotNull(returnedUser);
         }
-
-        //[Fact]
-        //public async Task GetUserAsync()
-        //{
-        //    var user = await userService.
-        //}
     }
 }

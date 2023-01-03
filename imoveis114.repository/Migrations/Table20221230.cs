@@ -13,7 +13,7 @@ namespace imoveis114.repository.Migrations
         {
             Create.Table("User")
                .WithColumn("id").AsString().NotNullable().PrimaryKey().Unique()
-               .WithColumn("email").AsString().NotNullable()
+               .WithColumn("email").AsString().NotNullable().Unique()
                .WithColumn("password").AsString().NotNullable()
                .WithColumn("first_name").AsString().NotNullable()
                .WithColumn("last_name").AsString().NotNullable()

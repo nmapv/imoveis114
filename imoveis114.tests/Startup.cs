@@ -3,9 +3,6 @@ using imoveis114.repository.Repository.Base;
 using imoveis114.service.Services;
 using FluentMigrator.Runner;
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
-using System;
-using FluentMigrator.Runner.Initialization;
 
 namespace imoveis114.tests
 {
